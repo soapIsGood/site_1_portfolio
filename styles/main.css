@@ -1,6 +1,7 @@
 body {
     margin: 0;
     width: 1440px;
+    background: #fff;
 
 }
 
@@ -169,4 +170,75 @@ ul li:hover {
 
 .about__card3 {
     background-image: url("../img/about__we_build.png")
+}
+
+.services__section {
+    width: 940px;
+    height: 446px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.services__header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__header h3 {
+    width: 199px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    color: #48555b;
+    margin: 0;
+}
+
+.services__header p {
+    width: 408.5px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 173%;
+    letter-spacing: 0.02em;
+    color: #48555b;
+}
+
+.services__header button {
+    width: 150px;
+    height: 40px;
+    background: #00a4e5;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.service__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service__card {
+    width: 295px;
+    height: 330px;
+    box-sizing: border-box;
+    padding: 39px 23px;
+    border: solid 1px rgb(0, 0, 0, .5)
+}
+
+.service__card h6 {
+
+    margin: 25px auto 13px auto;
+}
+
+.service__card p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
 }
