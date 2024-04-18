@@ -207,7 +207,7 @@ ul li:hover {
     color: #48555b;
 }
 
-.services__header button {
+.btn {
     width: 150px;
     height: 40px;
     background: #00a4e5;
@@ -241,4 +241,31 @@ ul li:hover {
     line-height: 177%;
     letter-spacing: 0.01em;
     color: #48555b;
+}
+
+.get_in_touch {
+    width: 1440px;
+    height: 499px;
+    background-image: url(/img/get_in_touch_bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.get_in_touch p {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #48555b;
+    width: 350px;
+    height: 72px;
+    margin: 0;
+}
+
+.get_in_touch button {
+    margin-top: 35px;
 }
