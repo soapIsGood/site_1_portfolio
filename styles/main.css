@@ -5,6 +5,7 @@ body {
 
 }
 
+
 header {
     text-align: center;
     background-image: url("../img/header__bg.png");
@@ -268,4 +269,41 @@ ul li:hover {
 
 .get_in_touch button {
     margin-top: 35px;
+}
+
+.newsletter {
+    width: 1440px;
+    height: 100px;
+    background: #171819;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter p {
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    margin-right: 70px;
+}
+
+input {
+    border: 1px solid #979797;
+    width: 250px;
+    height: 40px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.newsletter div {
+    width: 685px;
+    height: 40px;
+    display: flex;
+
+    /* margin: auto; */
 }
