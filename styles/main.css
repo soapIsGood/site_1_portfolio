@@ -89,3 +89,84 @@ ul li:hover {
     margin: 24px 0;
     padding: 0 251px;
 }
+
+.about__section {
+    width: 941px;
+    height: 344px;
+    margin: 58px 250px 118px 249px;
+    overflow: hidden;
+}
+
+.about__top {
+    margin: auto;
+    width: 150px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    text-align: center;
+    color: #48555b;
+}
+
+.about__top h3 {
+    margin: 0;
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__left {
+    width: 408.5px;
+    padding-top: 80px;
+}
+
+.about__left span {
+    letter-spacing: 0.01em;
+    color: #16ace8;
+}
+
+.founded {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+
+.lorem {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+    padding-top: 5px;
+}
+
+.about__right {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    padding-top: 84px;
+}
+
+.about__card1,
+.about__card2,
+.about__card3 {
+    width: 140px;
+    height: 224px;
+}
+
+.about__card1 {
+    background-image: url("../img/about__we_plan.png")
+}
+
+.about__card2 {
+    background-image: url("../img/about__we_manage.png")
+}
+
+.about__card3 {
+    background-image: url("../img/about__we_build.png")
+}
